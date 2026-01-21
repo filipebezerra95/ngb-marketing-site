@@ -16,11 +16,13 @@ import {
 import video1 from "../../assets/arquivosPortifolio/cafe-oblivio.MP4";
 import video2 from "../../assets/arquivosPortifolio/taty-marinho.mp4";
 import video3 from "../../assets/arquivosPortifolio/thays.mp4"
+import video4 from "../../assets/arquivosPortifolio/videoIA.mp4"
 
 const videos = [
   { src: video1, title: "Café Oblivio" },
   { src: video2, title: "Taty Marinho" },
   { src: video3, title: "Thays" },
+  { src: video4, title: "Video IA" },
 ];
 
 function VideoCarousel() {

@@ -2,15 +2,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { CarouselWrapper, SlideImage } from "./styles";
-import agenda from "../../assets/banners/agenda.png"
 import nath from "../../assets/banners/postNath.svg"
-import croissant from "../../assets/banners/croissant.svg"
 import titulo from "../../assets/banners/titulo.svg"
-import catia from "../../assets/banners/grupoCatia.svg"
-import limpeza from "../../assets/banners/limpezaPele.svg"
-import nutri from "../../assets/banners/nutri.svg"
-import nutriRaquel from "../../assets/banners/nutriRaquel.svg"
-import vale from "../../assets/banners/valePresente.svg"
+import movie from "../../assets/banners/bannerMovie.jpeg"
+import dorama from "../../assets/banners/bannerDynamiteKiss.jpeg"
+import mardegan from "../../assets/banners/studioMardegan.jpeg"
+import nutri from "../../assets/banners/bannerRaquel.jpeg"
+import nutriRaquel from "../../assets/banners/bannerRaquel2.jpeg"
+import catia1 from "../../assets/banners/bannerCatiarosa.jpeg"
+import catia2 from "../../assets/banners/bannerCatiarosa2.jpeg"
+import catia3 from "../../assets/banners/bannerCatiarosa3.jpeg"
+
+
+
+
 
 
 function BannerCaroussel() {
@@ -31,14 +36,7 @@ function BannerCaroussel() {
           
         }}
       >
-        <SwiperSlide>
-          <SlideImage
-            src={agenda}
-            onClick={() => window.open("https://www.instagram.com/nutriraquelalves/")}
-            alt="nutricionista"
-            style={{cursor: 'pointer'}}
-          />
-        </SwiperSlide>
+       
         <SwiperSlide>
           <SlideImage
             src={nath}
@@ -49,34 +47,34 @@ function BannerCaroussel() {
         </SwiperSlide>
         <SwiperSlide>
           <SlideImage
-            src={croissant}
-            alt="croissant"
-            style={{cursor: 'pointer'}}
-            onClick={() => window.open("https://www.instagram.com/nathaliagalldino/")}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SlideImage
             src={titulo}
-            alt="croissant"
+            alt="titulo"
             style={{cursor: 'pointer'}}
-            onClick={() => window.open("https://www.instagram.com/nathaliagalldino/")}
+            onClick={() => window.open("https://www.instagram.com/ngbmarketing/")}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SlideImage
-            src={catia}
-            alt="catia"
+            src={movie}
+            alt="movie"
             style={{cursor: 'pointer'}}
-            onClick={() => window.open("https://www.instagram.com/nathaliagalldino/")}
+            onClick={() => window.open("https://www.instagram.com/ngbmarketing/")}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SlideImage
-            src={limpeza}
-            alt="limpeza de pele"
+            src={dorama}
+            alt="dynamite kiss"
             style={{cursor: 'pointer'}}
-            onClick={() => window.open("https://www.instagram.com/nathaliagalldino/")}
+            onClick={() => window.open("https://www.instagram.com/ngbmarketing/")}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideImage
+            src={mardegan}
+            alt="studio-mardegan"
+            style={{cursor: 'pointer'}}
+            onClick={() => window.open("https://www.instagram.com/ngbmarketing/")}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -97,12 +95,28 @@ function BannerCaroussel() {
         </SwiperSlide> 
         <SwiperSlide>
           <SlideImage
-            src={vale}
-            alt="vale presente"
+            src={catia1}
+            alt="catia rosa"
             style={{cursor: 'pointer'}}
-            onClick={() => window.open("https://www.instagram.com/nathaliagalldino/")}
+            onClick={() => window.open("https://www.instagram.com/esteticacatiarosa/")}
           />
-        </SwiperSlide>                                        
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideImage
+            src={catia2}
+            alt="catia rosa"
+            style={{cursor: 'pointer'}}
+            onClick={() => window.open("https://www.instagram.com/esteticacatiarosa/")}
+          />
+        </SwiperSlide> 
+        <SwiperSlide>
+          <SlideImage
+            src={catia3}
+            alt="catia rosa"
+            style={{cursor: 'pointer'}}
+            onClick={() => window.open("https://www.instagram.com/esteticacatiarosa/")}
+          />
+        </SwiperSlide>                                         
       </Swiper>
     </CarouselWrapper>
   );

@@ -30,9 +30,9 @@ function OurServices() {
         </DivTitle>
         <TextBox>
           <DivArts>
-            <SubTitle>ARTES PARA REDES SOCIAIS</SubTitle>
+            <SubTitle>GESTÃO DE REDES SOCIAIS</SubTitle>
             <TextSubTitle>
-              Projetos gráficos criados para atender a necessidade do seu
+              Projetos gráficos e videos criados para atender a necessidade do seu
               negócio, chamar atenção, vender e engajar.
             </TextSubTitle>
           </DivArts>
@@ -59,10 +59,9 @@ function OurServices() {
             </TextSubTitle>
           </DivMaterials>
           <DivVideo>
-            <SubTitle>VÍDEOS E POSTS ANIMADOS</SubTitle>
+            <SubTitle>GESTÃO DE TRAFEGO PAGO</SubTitle>
             <TextSubTitle>
-              Gravação e edições de vídeos, desenvolvimento de posts e reels
-              animados.
+              Trafego pago estratégico para ter mais visibilidade, mais leads e consequentemente mais vendas.
             </TextSubTitle>
           </DivVideo>
         </DivParagraph>

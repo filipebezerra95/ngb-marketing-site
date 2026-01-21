@@ -11,6 +11,7 @@ export const BoxVideo = styled.div`
 
   @media (max-width: 768px){
       width: 100%;
+      top: 0;
 
     }  
   
@@ -22,6 +23,7 @@ export const BoxVideo = styled.div`
 
     @media (max-width: 768px){
       width: 100%;
+      margin-top: 95px;
 
     }
   }
@@ -33,11 +35,11 @@ export const Mask = styled.div`
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    109deg,
-    rgba(10, 12, 16, 0.95) 15%,
-    rgba(10, 12, 16, 0.6) 50%,
-    rgba(10, 12, 16, 0.95) 85%
-  );
+    180deg, 
+    rgba(0, 0, 0, 2.1) 20%,   /* Topo bem escuro para o logo */
+    rgba(0, 0, 0, 0.8) 80%,    /* Meio mais transparente para ver o vídeo */
+    rgba(0, 0, 0, 0.95) 100%  /* Rodapé escuro para acabamento */
+);
   z-index: 1; /* Fica acima do vídeo, mas abaixo do conteúdo da home */
 
 `

@@ -15,16 +15,19 @@ export const BusinessPersonal = styled.div`
   display: flex;
   justify-content: flex-end;
   flex: 1;
+  margin-bottom: 0;
 
   @media (max-width: 768px) {
-    justify-content: flex-end;
+    margin: 0 auto;
   }
 
   img {
     max-width: 100%;
-    width: 35vw;
+    width: 20vw;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
+    
+    margin-bottom: 0;
     animation: ${slideInLeft} 4s ease-out forwards;
 
     @media (max-width: 1024px) {
@@ -33,10 +36,7 @@ export const BusinessPersonal = styled.div`
 
     @media (max-width: 768px) {
       width: 250px;
-      height: 300px;
-      position: absolute;
-      bottom: 0;
-      left: 20%;
+      height: 300px; 
       animation: ${slideInLeft} 3s ease-out forwards;
     }
   }

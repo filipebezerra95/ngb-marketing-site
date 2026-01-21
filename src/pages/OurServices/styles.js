@@ -97,8 +97,9 @@ export const Title = styled.h1`
     @media (max-width: 768px) {
       text-align: center;
       margin-top: 40px;
-      font-size: 4.5rem;
+      font-size: 4rem;
       line-height: 1.3;
+      
     }
 `;
 export const TextBox = styled.div`

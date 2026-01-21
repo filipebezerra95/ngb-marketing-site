@@ -23,7 +23,8 @@ export const Menu = styled.div`
     font-size: clamp(1rem, 1.5vw, 1.8rem);
     font-weight: 400;
     font-family: "poppins";
-    color: #faa1d4;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.8);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     cursor: pointer;

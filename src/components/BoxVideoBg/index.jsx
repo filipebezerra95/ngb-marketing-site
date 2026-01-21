@@ -1,5 +1,6 @@
 import { BoxVideo, Mask } from "./styles"
 import Marketeira from "../../assets/homePage/marketeira.mp4"
+import marketing from "../../assets/homePage/marketing.mp4"
 
 
 function BoxVideoMask() {
@@ -7,7 +8,7 @@ function BoxVideoMask() {
     return(
         <BoxVideo>
             <video autoPlay loop muted playsInline>
-                <source src={Marketeira} type="video/mp4"/>
+                <source src={marketing} type="video/mp4"/>
             </video>
             <Mask />
         </BoxVideo>

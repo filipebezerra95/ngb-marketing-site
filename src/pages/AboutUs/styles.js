@@ -58,7 +58,9 @@ export const SubContainer = styled.div`
   }
 `;
 export const Title = styled.h1`
-   color: #FAA1D4;
+   
+   color: #fff;
+  text-shadow: 0 0 10px #000, 0 0 20px #000;
     font-size: clamp(3rem, 9vw, 130px);
     font-family: 'anton';
     font-weight: bold;
@@ -142,7 +144,7 @@ export const Title2 = styled.h1`
     }
 
     @media (max-width: 768px) {
-      font-size: 2.5rem;
+      font-size: 3.3rem;
       text-align: center;
       margin-top: 0;
       line-height: 1.5;
@@ -188,9 +190,9 @@ export const Text2 = styled.p`
 
    @media (max-width: 768px) {
     font-size: 1.4rem;
-    margin-left: 0;
-    text-align: center;
-    width: 100%;
+    margin: 0 10px;
+    text-align: left;
+    width: 22rem;
    }
 `;
 export const DivImage = styled.div`
@@ -260,10 +262,10 @@ export const Text3 = styled.p`
    }
     @media (max-width: 768px) {
     font-size: 1.4rem;
-    margin-left: 0;
-    text-align: center;
-    width: 100%;
-    margin-right: 0;
+    margin: 0 10px;
+    text-align: left;
+    width: 22rem;
+   
     
    }
 `;

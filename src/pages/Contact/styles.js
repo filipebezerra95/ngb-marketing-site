@@ -100,7 +100,8 @@ export const DivContacts = styled.div`
   }
 `;
 export const Title = styled.h2`
-  color: #faa1d4;
+  color: #fff;
+  text-shadow: 0 0 10px #000, 0 0 20px #000;
   font-size: 3.5rem;
   margin-bottom: 20px;
   font-family: "anton", sans-serif;
@@ -123,7 +124,8 @@ export const Title = styled.h2`
   }
 `;
 export const SubTitle = styled.h1`
-  color: #faa1d4;
+  color: #fff;
+  text-shadow: 0 0 10px #000, 0 0 20px #000;
   font-size: 2.5rem;
   margin-bottom: 40px;
   font-family: "anton", sans-serif;
@@ -149,10 +151,7 @@ export const SocialMidia = styled.div`
   padding: 40px 0;
 
   @media (max-width: 768px) {
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    margin: 0 auto;
   }
 `;
 export const WhatsApp = styled.div`
@@ -182,18 +181,20 @@ export const WhatsApp = styled.div`
     flex: 1;
     gap:0;
     position: relative;
+    margin-bottom: 0px;
   }
 `;
 export const Instagram = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 
-  gap: 20px;
+  gap: 1px;
   img {
     margin-right: 10px;
     width: 15rem;
-    animation: ${slideInLeft} 4s ease-out forwards;
+    animation: ${slideInLeft} 1s ease-out forwards;
     cursor: pointer;
 
     &:hover {
@@ -209,7 +210,7 @@ export const Instagram = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: row;
-    flex: 1;
+    align-items: center;
     gap:0;
     position: relative;
   }
@@ -220,7 +221,7 @@ export const Paragraph = styled.p`
   margin-bottom: 10px;
   font-family: "poppins", sans-serif;
   font-weight: 400;
-  animation: ${slideInRight} 5s ease-out forwards;
+  animation: ${slideInRight} 2s ease-out forwards;
   cursor: pointer;
 
   &:hover {
@@ -229,9 +230,11 @@ export const Paragraph = styled.p`
   }
 
   @media (max-width:768px) {
+    color: #fff;
+  text-shadow: 0 0 10px #000, 0 0 20px #000;
     font-size: 1.8rem;
     z-index: 1;
     position: relative;
-    right: 10px;
+    right: 1.5rem;
   }
 `;

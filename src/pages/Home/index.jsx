@@ -5,17 +5,18 @@ import BoxVideo from "../../components/BoxVideoBg";
 
 
 function Home() {
-  const myText = "CHEGOU A HORA DE FAZER ACONTECER!";
+  
 
   return (
     <Container>
       <BoxVideo />
       <NavBar />
       <DivHome>
+        <BusinessPersonal />
         <DivTitle>
-          <Title>{myText}</Title>
+          <Title>Enquanto você cuida do seu <span>negócio</span>,nós cuidamos do seu <span>crescimento</span>.</Title>
         </DivTitle>
-        <BusinessPersonal></BusinessPersonal>
+        
       </DivHome>
     </Container>
   );

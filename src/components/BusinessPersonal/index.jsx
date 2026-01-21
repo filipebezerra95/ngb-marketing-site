@@ -1,5 +1,5 @@
 import { BusinessPersonal } from "./styles"
-import NathEmpresaria from '../../assets/homePage/nath-empresaria.svg'
+import NathEmpresaria from '../../assets/homePage/ngb-nath.png'
 
 
 function PersonalBusinessContainer() {

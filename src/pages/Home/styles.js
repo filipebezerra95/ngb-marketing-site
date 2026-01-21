@@ -29,12 +29,8 @@ export const Container = styled.div`
 
 export const DivHome = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: auto;
-  margin-bottom: auto;
   height: 80vh;
 
     @media (max-width: 768px) {
@@ -44,30 +40,38 @@ export const DivHome = styled.div`
 `;
 export const DivTitle = styled.div`
   flex: 1;
-  min-width: 300px;
+  
   display: flex;
   flex-direction: column;
 
     @media (max-width: 768px){
-      max-width: 200px;
+      max-width: 700px;
       justify-content: center;
       align-items: center;
     }
 `;
 
 export const Title = styled.h1`
-  color: #faa1d4;
-  font-size: clamp(3rem, 8vw, 130px);
-  font-family: "anton";
+  color: #fff;
+  text-shadow: 0 0 10px #0000, 0 0 20px #0000;
+  font-size: clamp(2.5rem, 7vw, 110px);
+  font-family: "poppins";
   font-weight: bold;
   line-height: 1;
-  text-align: left;
+  text-align: center;
   margin-top: 5vh;
   animation: ${slideInLeft} 2s ease-out forwards;
 
+  span {
+    color: #faa1d4;
+  }
+
     @media (max-width: 768px){
-      font-size: 5rem;
+      margin-top: 0;
+      font-size: 2.4rem;
       text-align: center;
+      height: 400px;
+      
       
     }
 `;
