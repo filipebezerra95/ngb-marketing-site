@@ -1,4 +1,5 @@
 import {
+  Button,
   Container,
   DivContacts,
   DivImage,
@@ -14,6 +15,8 @@ import NavBar from "../../components/NavBar";
 import ProfImage from "../../assets/contact/professionalImage.svg";
 import WhatsIcon from "../../assets/contact/whatsIcon.png";
 import InstaIcon from "../../assets/contact/instaIcon.png";
+import FormOrcament from "../../components/FormOrcament";
+import { useState } from "react";
 
 // Configurações centralizadas
 const CONTACT_INFO = {
@@ -23,7 +26,10 @@ const CONTACT_INFO = {
   instagram: "@ngbmarketing",
 };
 
+
+
 function Contact() {
+  const [openForm, setOpenForm] = useState(false);
   // Gera a URL de forma limpa
   const whatsappUrl = `https://wa.me/${CONTACT_INFO.phone}?text=${encodeURIComponent(CONTACT_INFO.message)}`;
   const instagramUrl = `https://www.instagram.com/${CONTACT_INFO.instagram.replace('@', '')}/`;
@@ -52,8 +58,12 @@ function Contact() {
                 <Paragraph>{CONTACT_INFO.instagram}</Paragraph>
               </a>
             </Instagram>
+            <Button className="animate" onClick={() => setOpenForm(true)}>Solicitar orçamento</Button>
           </SocialMidia>
+          
         </DivContacts>
+        
+        <FormOrcament isOpen={openForm} onClose={() => setOpenForm(false)}  />
       </SubContainer>
     </Container>
   );

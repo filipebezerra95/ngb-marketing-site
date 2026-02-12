@@ -4,6 +4,7 @@ import ProfessionalPainel1 from "../../assets/results/profissionalPainel1.svg"
 import ProfessionalPainel2 from "../../assets/results/profissionalPainel2.svg"
 import Alcance from "../../assets/results/alcancePainel.svg"
 import Visibility from "../../assets/results/visibilityPainel.svg"
+import ButtonFloatOrcament from "../../components/ButtonOrcament";
 
 function SomeResults() {
   const myText = 'ALGUNS DE NOSSOS RESULTADOS'
@@ -26,6 +27,7 @@ function SomeResults() {
           <VisibilityImg src={Visibility} />
         </SecondDiv>
       </SubContainer>
+      <ButtonFloatOrcament />
     </Container>
   )
 }

@@ -12,6 +12,7 @@ import Carousel from "../../components/Carousel";
 import VideoCarousel from "../../components/videoCarousel";
 import LogoCaroussel from "../../components/LogoCaroussel";
 import BannerCaroussel from "../../components/BannerCaroussel";
+import ButtonFloatOrcament from "../../components/ButtonOrcament";
 import { useEffect } from "react";
 
 function Portifolio() {
@@ -68,6 +69,7 @@ function Portifolio() {
           <BannerCaroussel className="animate"  />
         </DivCards>
       </SubContainer>
+      <ButtonFloatOrcament className="animate" />
     </Container>
   );
 }

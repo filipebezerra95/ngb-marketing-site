@@ -16,6 +16,7 @@ import {
   Title,
 } from "./styles";
 import NavBarWhite from "../../components/NavBarWhite";
+import ButtonFloatOrcament from "../../components/ButtonOrcament";
 
 function OurServices() {
   const myText = "SERVIÇOS QUE OFERECEMOS";
@@ -68,6 +69,7 @@ function OurServices() {
       
 
       </SubContainer>
+      <ButtonFloatOrcament />
       
     </Container>
   );

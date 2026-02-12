@@ -37,7 +37,7 @@ const router = createBrowserRouter([
     }
 ], {
   // Isso resolve o erro do GitHub Pages
-  basename: "/ngb-marketing-site" 
+  basename: "/" 
 });
 
 export default router;

@@ -18,6 +18,7 @@ import {
 import NavBar from "../../components/NavBar";
 import NathBusiness from "../../assets/about/nathBusiness.svg";
 import LipeBusiness from "../../assets/about/filipeBusiness.svg";
+import ButtonFloatOrcament from "../../components/ButtonOrcament";
 import { useEffect } from "react";
 
 function AboutUs() {
@@ -95,6 +96,7 @@ function AboutUs() {
 
         </ThirdDiv>
       </SubContainer3>
+      <ButtonFloatOrcament className="animate" />
     </Container>
   );
 }

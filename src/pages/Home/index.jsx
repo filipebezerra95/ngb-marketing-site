@@ -2,6 +2,7 @@ import { Title, Container, DivTitle, DivHome } from "./styles";
 import BusinessPersonal from "../../components/BusinessPersonal";
 import NavBar from "../../components/NavBar";
 import BoxVideo from "../../components/BoxVideoBg";
+import ButtonFloatOrcament from "../../components/ButtonOrcament";
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
         </DivTitle>
         
       </DivHome>
+      <ButtonFloatOrcament />
     </Container>
   );
 }

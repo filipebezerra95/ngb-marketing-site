@@ -238,3 +238,23 @@ export const Paragraph = styled.p`
     right: 1.5rem;
   }
 `;
+
+export const Button = styled.button`
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #FAA1D4;
+    background: #1d1d1d;
+    opacity: 0.9;
+    color:  #c51277;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s;
+    margin: 0 auto;
+    width: 20rem;
+
+    &:hover {
+        background: #9e9b9b;
+    }
+
+    animation: ${slideInUp} 3s ease-out forwards;
+`;
